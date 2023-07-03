@@ -1,0 +1,21 @@
+{
+    "name": "zilbam/td2",
+    "description": "A beautiful demo package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zilbam\\Td2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Basile Maille",
+            "email": "basmaille59@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpstan/phpstan": "^1.10"
+    }
+}
